@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -130,3 +131,14 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+JAZZMIN_SETTINGS = {
+    # "site_title": "MovieX",
+    "site_header": "Youtube Studio",
+    "site_brand": "Think | Create | Inspire",
+    "site_logo": "images/logo.jpg",
+    "copyright": "youtube.com",
+    # "order_with_respect_to": ["blog"]
+}
