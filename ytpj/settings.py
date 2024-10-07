@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'core',
+    'userauths',
+    
+    'import_export',
 ]
 
 MIDDLEWARE = [
@@ -118,6 +121,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
+
+AUTH_USER_MODEL = 'userauths.User'
 
 STATIC_URL = 'static/'
 # 
